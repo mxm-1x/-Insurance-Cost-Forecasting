@@ -334,9 +334,9 @@ if st.button("Calculate Insurance Cost →"):
     st.markdown(f"""
     <div class="result-wrap">
       <div class="result-label">Estimated Annual Premium</div>
-      <div class="result-amount">₹{charge:,.0f}</div>
-      <div class="result-range">Likely range &nbsp;₹{lo:,.0f} – ₹{hi:,.0f}</div>
-      <div class="result-month">≈ ₹{charge/12:,.0f} per month</div>
+      <div class="result-amount">${charge:,.0f}</div>
+      <div class="result-range">Likely range &nbsp;${lo:,.0f} – ${hi:,.0f}</div>
+      <div class="result-month">≈ ${charge/12:,.0f} per month</div>
       <span class="badge {rcls}">{rlabel}</span>
     </div>
     """, unsafe_allow_html=True)
@@ -382,9 +382,9 @@ if st.button("Calculate Insurance Cost →"):
             <div class="whatif-row">
               <div class="whatif-scenario">{s['label']}</div>
               <div class="whatif-saving" style="color:{color};">
-                {arrow} ₹{abs(s['saving']):,.0f}
+                {arrow} ${abs(s['saving']):,.0f}
                 <span style="color:var(--muted);font-weight:400;font-size:0.78rem;">
-                  &nbsp;→ ₹{s['new']:,.0f}/yr</span>
+                  &nbsp;→ ${s['new']:,.0f}/yr</span>
               </div>
             </div>"""
 
