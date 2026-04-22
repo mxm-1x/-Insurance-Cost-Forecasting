@@ -1,5 +1,7 @@
 # 🏥 Insurance Cost Predictor
 
+Live Link - https://insurance-cost-forecasting.streamlit.app/
+
 A production-grade machine learning web app that predicts annual medical insurance charges using Ridge Regression, trained on the [Kaggle Insurance Dataset](https://www.kaggle.com/datasets/mirichoi0218/insurance).
 
 > ⚠️ **Note:** This model is trained on **US insurance data**. All predicted charges are in **USD ($)**. The dataset reflects US healthcare pricing and insurance structures, which differ significantly from other markets.
